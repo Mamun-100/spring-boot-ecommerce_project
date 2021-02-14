@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+        
+<tiles-definitions>  
+ 
+    <!-- Base Define -->
+    <definition name="default" 
+                template="/WEB-INF/layouts/dashboard/default.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/WEB-INF/layouts/dashboard/header.jsp" />  
+        <put-attribute name="menu" value="/WEB-INF/layouts/dashboard/menu.jsp" />
+<!--        <put-attribute name="menu" value="/WEB-INF/basefragments/_menu.jsp" />  
+        <put-attribute name="body" value="" />  
+        <put-attribute name="footer" value="/WEB-INF/basefragments/_footer.jsp" />  -->
+    </definition>  
+ 
+    <!-- Home Page  -->
+    <definition name="admin_dashboard" extends="default">  
+        <put-attribute name="title" value="Home Page" />  
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/home.jsp" />  
+    </definition>  
+    <definition name="admin_categories" extends="default">  
+        <put-attribute name="title" value="Home Page" />  
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/categories.jsp" />  
+    </definition> 
+    <definition name="admin_products" extends="default">  
+        <put-attribute name="title" value="Product List" />  
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/productsList.jsp" />  
+    </definition> 
+<!--    <definition name="payment" extends="default">  
+        <put-attribute name="title" value="payment" />  
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/payment.jsp" />  
+    </definition>-->
+    <definition name="orders" extends="default">  
+        <put-attribute name="title" value="ordersList" />  
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/ordersList.jsp" />  
+    </definition> 
+    <definition name="delivery" extends="default">  
+        <put-attribute name="title" value="deliveryList" />  
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/deliveryList.jsp" />  
+    </definition> 
+    <definition name="statistics" extends="default">  
+        <put-attribute name="title" value="statistics-report" />  
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/statistics-report.jsp" />  
+    </definition> 
+       
+
+  
+</tiles-definitions> 
