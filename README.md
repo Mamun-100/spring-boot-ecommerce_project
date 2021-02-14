@@ -39,7 +39,7 @@
 ## Category Add or AddItems
   ![](/img/8.png)
 
-## Add Product and Dinamical Product Search
+## Add Product and Dinamically Product Search
   ![](/img/9.png)
 
 ## OrderList
