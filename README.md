@@ -2,7 +2,7 @@
 
 ## Author of Name: Md.Mamunur Rashid Mamun
 #### Contact No: 01961280207
-#### Email:www.rashid202412@gmail.com
+#### Email:rashid202412@gmail.com
 
 ## Technology: 
 - Spring-boot
@@ -21,7 +21,7 @@
   ### ShowCase (Home)
   ![](/img/1.png)
 
-## Category of Product
+## List Category of Product
   ![](/img/3.png)
 
 ## Footer Part
