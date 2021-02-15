@@ -35,7 +35,7 @@
                             <th>Address</th>
                             <th>City</th>
                             <th>Date</th>
-                            <th>ProductId</th>
+<!--                            <th>ProductId</th>-->
                             <th>Quantity</th>
                             <th>PayType</th>
                             <th>TotalPrice</th>
@@ -44,34 +44,16 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr id="first">
-<!--                            <td>1</td>-->
-                            <td>salam</td>
-                            <td>0124578963</td>
-                            <td>410/b, poltan</td>
-                            <td>Dhaka</td>
-                            <td>2021-02-08</td>
-                            <td>4, 7, 15</td>
-                            <td>3</td>
-                            <td>card</td>
-                            <td>1060</td>
-                            <td>
-                                Cencel
-                            </td>
-                            <td> <button type="submit" ondblclick="orPending()">Accept</button>
-                            </td>
-                            <td><button type="submit" onclick="changeFirst('pink')">Decline</button></td>     
-
-                        </tr>
+                       
                         <c:forEach items="${orderlist}" var="ol">
                             <tr id="second">
-<!--                                <td>${ol.id}</td>-->
+                                <td>${ol.id}</td>
                                 <td>${ol.name}</td>
                                 <td>${ol.phone}</td>
                                 <td>${ol.address}</td>
                                 <td>${ol.city}</td>
                                 <td>${ol.date}</td>
-                                <td>4, 14</td>
+<!--                                <td>4, 14</td>-->
                                 <td>${ol.proqty}</td>
                                 <td>${ol.paymentType}</td>
                                 <td>${ol.totalproprice}</td>
@@ -90,9 +72,7 @@
         </div>
 
         <script>
-            function changeFirst(color) {
-                document.getElementById("first").style.background = color;
-            }
+           
 
             function changeSecond(color) {
                 document.getElementById("second").style.background = color;
