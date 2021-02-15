@@ -1,8 +1,8 @@
 # ElectroShopBd
 
-## Author Md.Mamunur Rashid Mamun
-#### Contact No 01961280207
-#### Email: rashid202412@gmail.com
+## Author of Name: Md.Mamunur Rashid Mamun
+#### Contact No: 01961280207
+#### Email:www.rashid202412@gmail.com
 
 ## Technology: 
 - Spring-boot
